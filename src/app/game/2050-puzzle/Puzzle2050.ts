@@ -34,8 +34,8 @@ export interface ModeConfig {
 
 /** maxK = highest exponent that may exist on the board. Merging two of them wins. */
 export const MODES: Record<Mode, ModeConfig> = {
-  normal: { maxK: 8, label: 'Normal', target: 2560, spawnHigh: 0.3 },
-  pro: { maxK: 10, label: 'Pro', target: 10240, spawnHigh: 0.1 },
+  normal: { maxK: 8, label: 'Normal', target: 2560, spawnHigh: 0.45 },
+  pro: { maxK: 10, label: 'Pro', target: 10240, spawnHigh: 0.25 },
 }
 
 export const valueOf = (k: number): number => 5 * 2 ** k
