@@ -7,6 +7,7 @@ import SchulteImage from '/public/SchulteImage.webp'
 import MemoryFlip from '/public/MemoryFlip.png'
 import BulletMath from '/public/BulletMath.png'
 import SimonSaysImage from '/public/SimonSays.png'
+import Puzzle2560Image from '/public/puzzle-2560.svg'
 
 const SelectGame = () => {
   return (
@@ -60,7 +61,14 @@ const SelectGame = () => {
           link={'simon-says'}
           backgroundColor={'#9333EA'}
           textColor={'white'}
-        />      
+        />
+        <Card
+          image={Puzzle2560Image}
+          name={'2560 O.S.G'}
+          link={'2050-puzzle'}
+          backgroundColor={'#0F766E'}
+          textColor={'white'}
+        />
       </div>
     </>
   )

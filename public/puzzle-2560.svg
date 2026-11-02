@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="88" viewBox="0 0 100 88" role="img" aria-label="Sliding tiles">
+  <rect x="14" y="2" width="72" height="72" rx="8" fill="#0f766e"/>
+  <rect x="20" y="8" width="28" height="28" rx="5" fill="#eee4da"/>
+  <rect x="52" y="8" width="28" height="28" rx="5" fill="#f2b179"/>
+  <rect x="20" y="40" width="28" height="28" rx="5" fill="#f65e3b"/>
+  <rect x="52" y="40" width="28" height="28" rx="5" fill="#edcf72"/>
+  <text x="34" y="29" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#4a3f35">5</text>
+  <text x="66" y="29" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#fff">20</text>
+  <text x="34" y="61" font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">160</text>
+  <text x="66" y="61" font-family="Arial, sans-serif" font-size="9" font-weight="700" text-anchor="middle" fill="#fff">1280</text>
+  <path d="M30 80h40m0 0-6-4m6 4-6 4" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

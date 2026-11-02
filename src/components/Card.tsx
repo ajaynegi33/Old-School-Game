@@ -15,10 +15,10 @@ type CardProps = {
 const Card = (props: CardProps) => {
     return (
         <>
-            <Link href={`/game/${props.link}`}>
+            <Link href={`/game/${props.link}`} prefetch={true}>
                 <div className={styles.singleCardContainer} style={{backgroundColor: props.backgroundColor}}>
                     <div className={styles.cardImageContainer}>
-                        <Image src={props.image} alt={props.name} width={100} height={88} loading="eager" priority={true} />
+                        <Image src={props.image} alt={props.name} width={100} height={88} />
                     </div>
                     <div className={styles.cardTextContainer}>
                         <p style={{color: props.textColor}}>{props.name}</p>
