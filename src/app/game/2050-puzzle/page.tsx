@@ -56,6 +56,24 @@ const Page = () => {
             moves ahead. There is no timer, so take your time.
           </p>
         </section>
+
+        <section aria-labelledby="benefits">
+          <h2 id="benefits">Cognitive Benefits</h2>
+          <ul>
+            <li>
+              <strong>Planning and strategy (prefrontal cortex):</strong> you must think
+              several moves ahead and avoid blocking the board.
+            </li>
+            <li>
+              <strong>Cognitive flexibility:</strong> you adapt your plan every time a new
+              tile appears in an unexpected cell.
+            </li>
+            <li>
+              <strong>Attention and pattern recognition:</strong> you spot equal neighbours
+              and chains of merges.
+            </li>
+          </ul>
+        </section>
       </div>
     </main>
   )
